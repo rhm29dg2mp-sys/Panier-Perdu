@@ -6,6 +6,8 @@
 <title>Panier Perdu – Récupère les paniers abandonnés de ta boutique</title>
 <meta name="description" content="Deux relances personnalisées envoyées automatiquement, un code promo facultatif, et le chiffre d’affaires récupéré affiché en euros. 49 €/mois, sans engagement.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="Panier Perdu">
+<meta property="og:url" content="https://panier-perdu-flame.vercel.app/">
 <meta property="og:title" content="Panier Perdu – Récupère les paniers abandonnés de ta boutique">
 <meta property="og:description" content="Deux relances personnalisées, un code promo facultatif, le chiffre récupéré en euros. 49 €/mois, sans engagement.">
 <meta property="og:locale" content="fr_FR">
@@ -49,7 +51,8 @@ details{border-bottom:1px solid var(--line);padding:14px 0}
 summary{font-weight:700;cursor:pointer;min-height:44px;display:flex;align-items:center}
 details p{margin:6px 0 4px;color:var(--mute)}
 footer{padding:28px 0 48px;font-size:14px;color:var(--mute);border-top:1px solid var(--line)}
-footer a{color:var(--ink)}
+footer a{color:var(--ink);display:inline-block;padding:10px 0;margin-right:16px;min-height:44px}
+footer p{margin:0 0 6px}
 @media(min-width:700px){.btn{display:inline-block;padding:16px 34px}.price .btn{display:block}}
 </style>
 </head>
@@ -121,7 +124,8 @@ footer a{color:var(--ink)}
 
 <footer>
 <div class="wrap">
-<p>Panier Perdu. Paiement traité par Polar, revendeur officiel. Mentions légales, conditions générales de vente et politique de confidentialité : à venir sur le site complet.</p>
+<p>Panier Perdu. Paiement traité par Polar, revendeur officiel.</p>
+<a href="/legal.html#mentions">Mentions légales</a><a href="/legal.html#cgv">Conditions générales de vente</a><a href="/legal.html#confidentialite">Confidentialité</a>
 </div>
 </footer>
 
